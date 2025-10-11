@@ -10,7 +10,7 @@ library(tidyverse)
 
 
 #_ Load data file ---------- 
-data_raw <- read_csv('/Users/nicolasbailly/Documents/side_projects/Alzheimers/GSE308813_20240829_LB_rna_counts_only.csv')
+data_raw <- read_csv('../data/GSE308813_20240829_LB_rna_counts_only.csv')
 
 #_ Data Exploration and modification---------- 
 
