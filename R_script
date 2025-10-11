@@ -91,6 +91,12 @@ summary(res)
 #Visualization of results-MA plot
 plotMA(res, main = "MA plot: Risk vs Protective", ylim = c(-5, 5))
 
+legend('topright', 
+       legend=c('Significant genes', 'Non-significant genes'),
+       col= c('blue', 'grey'),
+       pch=20,
+       pt.cex=2)
+
 #_ Identity of upregulated genes ---------- 
 
 upregulated_genes<-subset(res, padj<0.05 & log2FoldChange >0)
