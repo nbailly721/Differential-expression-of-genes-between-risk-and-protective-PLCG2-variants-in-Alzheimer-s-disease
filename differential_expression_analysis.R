@@ -1,4 +1,16 @@
-# Differential expression of genes between risk and protective PLCG2 variants in Alzheimer's disease
+# ===================================================
+# Project: Differential Expression Analysis of Genes
+#          Between Risk and Protective PLCG2 Variants
+#          in Alzheimer's Disease
+#
+# Description:
+#   This script performs differential gene expression analysis
+#   on RNA-seq count data comparing risk versus protective variants 
+#   of the PLCG2 gene in Alzheimer's disease.
+#   It includes data loading, filtering of low-expression genes,
+#   normalization, statistical testing using DESeq2,
+#   and identification of significantly up- and down-regulated genes.
+# ===================================================
 
 #_ Set up of environment ---------- 
 install.packages('R.utils')
