@@ -82,7 +82,7 @@ if (!requireNamespace("DESeq2", quietly = TRUE)) {
 library(DESeq2)
 # Load DESeq2 for differential expression statistical testing.
 
-metadata$condition<-factor (metadata$condition, levels=c('prot','risk')
+metadata$condition<-factor (metadata$condition, levels=c('prot','risk'))
 # Define conditions as factors with proper reference levels for analysis.
 
 ddc <- DESeqDataSetFromMatrix(countData=data_filtered,
