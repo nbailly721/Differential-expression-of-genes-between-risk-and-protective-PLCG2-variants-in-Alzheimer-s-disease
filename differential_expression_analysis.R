@@ -64,6 +64,11 @@ metadata <- data.frame(
 )
 # Define experimental groups for differential expression analysis.
 
+valid_samples <- !is.na(metadata$condition)
+metadata <- metadata[valid_samples, ]
+data_filtered <- data_filtered[, metadata$sample]
+#Remove NA values
+
 print(metadata) #data frame
 print(head(data_filtered))  #matrix
 # Verify metadata and data integrity post-filtering.
