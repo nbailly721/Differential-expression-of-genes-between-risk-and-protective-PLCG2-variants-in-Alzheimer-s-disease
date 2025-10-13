@@ -4,12 +4,11 @@ This project analyzes differential gene expression between risk and protective P
 
 GSE308813_20240829_LB_rna_counts_only.csv — Raw RNA counts for multiple samples across different genotypes.
 
-Source: [Insert dataset source or GEO accession if available]
+Source: [Accession number: GSE308813]
 
 🔧 Tools & Packages
 
 Language: R
-
 Packages: R.utils, tidyverse, DESeq2
 
 📊 Workflow Overview
