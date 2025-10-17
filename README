@@ -34,8 +34,6 @@ MA plot visualizing expression differences and significance
 
 differential_expression_analysis.R: Main analysis script
 
-data/: Folder containing raw RNA count data CSV
-
 ##🧠 Notes
 
 Filtering ensures only sufficiently expressed genes are analyzed to reduce noise.
