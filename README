@@ -3,9 +3,7 @@
 
 ##📁 Dataset
 
-GSE308813_20240829_LB_rna_counts_only.csv — Raw RNA counts for multiple samples across different genotypes.
-
-Source: [Accession number: GSE308813]
+GSE308813_20240829_LB_rna_counts_only.csv (Source: NCBI. Acession number:GSE308813) — Raw RNA counts for multiple samples across different genotypes.
 
 ##🔧 Tools & Packages
 
