@@ -1,4 +1,4 @@
-                                          ######Differential expression of genes between risk and protective PLCG2 variants in Alzheimer's disease######
+                                          ######Differential Gene Expression Analysis of PLCG2 Variants in Alzheimer’s Disease######
 -This project analyzes differential gene expression between risk and protective PLCG2 variants in Alzheimer's disease using RNA count data.
 
 ##📁 Dataset
